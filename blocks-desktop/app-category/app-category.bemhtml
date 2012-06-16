@@ -1,0 +1,7 @@
+block app-category {
+
+    tag: 'a'
+
+    attrs: { href: this.ctx.url }
+
+}

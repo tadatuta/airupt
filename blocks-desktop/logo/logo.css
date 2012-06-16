@@ -1,0 +1,9 @@
+.logo
+{
+    float:left;
+
+    width: 115px;
+    height: 40px;
+
+    background: url(logo.png) no-repeat;
+}

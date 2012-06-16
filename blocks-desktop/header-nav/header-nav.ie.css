@@ -1,0 +1,4 @@
+.header-nav .b-menu-horiz__item_state_current .b-link
+{
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c4d63', endColorstr='#12708f',GradientType=0 );
+}
