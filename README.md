@@ -2,6 +2,7 @@ airupt
 ======
 
 BEM platform for Airupt projects
+--------------------------------
 
 Installation
     sudo npm install -g bem@unstable
