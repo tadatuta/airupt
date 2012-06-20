@@ -1,0 +1,109 @@
+.app-category
+{
+    font-size: 12px;
+    font-weight: bold;
+
+    position: relative;
+
+    float: left;
+
+    line-height: 28px;
+
+    margin: 0 15px 15px 0;
+    padding: 0 10px;
+
+    border: 1px solid #a6a6a6;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #829194;
+    text-decoration: none;
+    text-shadow: 0px 2px 0px #ecf0f2;
+
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+
+    background: #e5edf1;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,.6) 0%, rgba(168,209,224,.6) 100%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,.6) 0%,rgba(168,209,224,.6) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,.6) 0%,rgba(168,209,224,.6) 100%);
+    background: linear-gradient(top,  rgba(255,255,255,.6) 0%,rgba(202,219,225,.6) 100%);
+}
+
+.app-category_type_top
+{
+    top: 10px;
+
+    color: #f5f5f5;
+    text-shadow: 0px 1px 0px #000;
+
+    border-color: #8f949e;
+
+    background: rgba(117,195,217,.6);
+}
+
+.app-category_cat_games,
+.app-category_cat_medical,
+.app-category_cat_news,
+.app-category_cat_shopping,
+.app-category_cat_utilities,
+.app-category_cat_personalization
+{
+    clear: left;
+}
+
+.app-category_cat_lifestyle
+{
+    top: -2px;
+}
+
+.app-category_cat_media
+{
+    top: 3px;
+}
+
+.app-category_cat_navigation
+{
+    top: -3px;
+}
+
+.app-category_cat_photography
+{
+    top: -3px;
+}
+
+.app-category_cat_productivity
+{
+    top: 20px;
+}
+
+.app-category_cat_utilities
+{
+    top: 2px;
+}
+
+.app-category_cat_social
+{
+    top: 3px;
+}
+
+.app-category_cat_sports
+{
+    top: -10px;
+}
+
+.app-category_cat_weather
+{
+    top: 3px;
+}
+
+.app-category_cat_travel
+{
+    top: -16px;
+}

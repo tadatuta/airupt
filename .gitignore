@@ -1,0 +1,6 @@
+.DS_Store
+lego
+bem-bl
+node_modules
+pages-desktop/*/*.*
+!pages-desktop/*/*.bemjson.js

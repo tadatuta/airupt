@@ -1,0 +1,8 @@
+block app-categories {
+    content: [
+        this.ctx.content,
+        {
+            elem: 'hover'
+        }
+    ]
+}

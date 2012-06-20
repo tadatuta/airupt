@@ -1,0 +1,38 @@
+block code {
+    tag: 'pre'
+
+    content: {
+        tag: 'code',
+        content: this.ctx.content
+    }
+
+    elem rule {        
+        content: [
+            {
+                elem: 'selector',
+                content: this.ctx.selector
+            },
+            { content: '{' },
+            this.ctx.content,
+            { content: '}' }            
+        ]
+    }
+
+    elem property {
+        tag: 'span',
+        content: '&nbsp;&nbsp;&nbsp;&nbsp;' + this.ctx.content + ': '
+    }
+
+    elem value, default, !this.ctx._done: {        
+        apply(          
+            this._mode = '',
+            this.ctx._done = true,
+            this.ctx.tag = 'span',
+            this.ctx.content = this.ctx.content + ';',
+            this.ctx = [
+                this.ctx,
+                { tag: 'br' }
+            ]            
+        )
+    }
+}
