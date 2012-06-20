@@ -1,0 +1,39 @@
+/* ../../blocks-desktop/b-page/b-page.css begin */
+.b-page
+{
+    font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+/* ../../blocks-desktop/b-page/b-page.css end */
+
+/* ../../blocks-intranet/code/code.css begin */
+.code
+{
+    padding: 2em;
+
+    background: #272822;
+
+    color: #f8f8f2;
+}
+
+.code__rule
+{
+    margin-bottom: 1em;
+}
+
+.code__selector
+{
+    color: #9ee22d;
+}
+
+.code__property
+{
+    color: #66d9e7;
+}
+
+.code__value
+{
+    color: #ae81ff;
+}
+/* ../../blocks-intranet/code/code.css end */
+
