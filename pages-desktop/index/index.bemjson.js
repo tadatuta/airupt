@@ -209,19 +209,31 @@
                         [
                             {
                                 tag: 'h4',
-                                content: 'magic'
+                                content: 'pseudo'
                             },
                             'content<br/>',
                             'quotes<br/>',
                             'counter-reset<br/>',
-                            'counter-increment<br/>',
+                            'counter-increment<br/>'
+                        ],
+                        [
+                            {
+                                tag: 'h4',
+                                content: 'other'
+                            },
                             'resize<br/>',
                             'cursor<br/>',
                             'nav-index<br/>',
                             'nav-up<br/>',
                             'nav-right<br/>',
                             'nav-down<br/>',
-                            'nav-left<br/>',
+                            'nav-left<br/>'
+                        ],
+                        [
+                            {
+                                tag: 'h4',
+                                content: 'transition and transform'
+                            },
                             '-webkit-transition<br/>',
                             '-moz-transition<br/>',
                             '-ms-transition<br/>',
@@ -256,7 +268,13 @@
                             '-moz-transform-origin<br/>',
                             '-ms-transform-origin<br/>',
                             '-o-transform-origin<br/>',
-                            'transform-origin<br/>',
+                            'transform-origin<br/>'
+                        ],
+                        [
+                            {
+                                tag: 'h4',
+                                content: 'animation'
+                            },
                             '-webkit-animation<br/>',
                             '-moz-animation<br/>',
                             '-ms-animation<br/>',
@@ -301,13 +319,20 @@
                             '-moz-animation-direction<br/>',
                             '-ms-animation-direction<br/>',
                             '-o-animation-direction<br/>',
-                            'animation-direction<br/>',
+                            'animation-direction<br/>'
+                        ],
+                        [
+                            {
+                                tag: 'h4',
+                                content: 'text'
+                            },
                             'text-align<br/>',
                             'text-align-last<br/>',
                             '-ms-text-align-last<br/>',
                             'text-align-last<br/>',
                             'vertical-align<br/>',
                             'white-space<br/>',
+                            'color<br/>',
                             'text-decoration<br/>',
                             'text-emphasis<br/>',
                             'text-emphasis-color<br/>',
@@ -344,10 +369,9 @@
                                 content: 'borders'
                             },
                             'opacity<br/>',
-                            'filter:progid:DXImageTransform.Microsoft.Alpha(Opacity<br/>',
-                            '-ms-filter:\'progid:DXImageTransform.Microsoft.Alpha<br/>',
+                            'filter:progid:DXImageTransform.Microsoft.Alpha(Opacity)<br/>',
+                            '-ms-filter:progid:DXImageTransform.Microsoft.Alpha<br/>',
                             '-ms-interpolation-mode<br/>',
-                            'color<br/>',
                             'border<br/>',
                             'border-collapse<br/>',
                             'border-width<br/>',
@@ -441,7 +465,7 @@
                             '-moz-box-shadow<br/>',
                             'box-shadow<br/>',
                             'filter:progid:DXImageTransform.Microsoft.gradient<br/>',
-                            '-ms-filter:\'progid:DXImageTransform.Microsoft.gradient<br/>',
+                            '-ms-filter:progid:DXImageTransform.Microsoft.gradient<br/>',
                             'text-shadow'
                         ],
                         [
