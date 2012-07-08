@@ -1,0 +1,21 @@
+.footer-nav
+{
+    float: left;
+    color: #1a94bb;
+}
+
+.footer-nav .b-menu-horiz__layout-unit
+{
+    padding-right: 7px;
+}
+
+.footer-nav .b-menu-horiz__item:before
+{
+    content: '·';
+    padding-right: 7px;
+}
+
+.footer-nav .b-menu-horiz__layout-unit_position_first .b-menu-horiz__item:before
+{
+    display: none;
+}

@@ -1,0 +1,14 @@
+block facebook-like {
+    tag: 'span'
+    content: [
+        {
+            elem: 'root',
+            attrs: { id: 'fb-root' }
+        },
+        this.ctx.content
+    ]
+
+    elem like {
+        cls: 'fb-like'
+    }
+}

@@ -1,0 +1,19 @@
+.facebook-like
+{
+    margin-left: 1em;
+}
+
+.facebook-like__root
+{
+    display: none;
+}
+
+.facebook-like__like
+{
+    margin-left: .5em;
+}
+
+.facebook-like .facebook-like__like span
+{
+    vertical-align: middle;
+}

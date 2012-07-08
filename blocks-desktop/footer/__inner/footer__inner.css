@@ -1,0 +1,9 @@
+.footer__inner
+{
+    line-height: 40px;
+
+    width: 960px;
+    margin: auto;
+
+    border-top: 1px solid #a0c1cb;
+}

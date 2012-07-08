@@ -248,19 +248,101 @@
             block: 'footer',
             content: {
                 elem: 'inner',
-                content: [
+                content: [                    
                     {
-                        block: 'copyright',
-                        content: '© 2011 Airupt Inc.'
-                    },
-                    {
-                        block: 'menu',
-                        content: [
+                        block: 'b-menu-horiz',
+                        js: false,
+                        mods: { layout: 'normal' },
+                        mix: [ { block: 'footer-nav' } ],
+                        content: [                            
                             {
                                 elem: 'item',
-                                content: 'AboutHelpPlatformsTermsPrivacyAdvertisersDevelopersApp Search'
+                                content: {
+                                    block: 'b-link', url: '/about.html', content: 'About'
+                                }
+                            },
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link', url: '/privacy.html', content: 'Privacy'
+                                }
+                            },
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link', url: '/advertisers.html', content: 'Advertisers'
+                                }
+                            },
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link', url: '/developers.html', content: 'Developers'
+                                }
+                            },
+                            {
+                                elem: 'item',
+                                content: {
+                                    block: 'b-link', url: '/help.html', content: 'Help'
+                                }
                             }
                         ]
+                    },
+                    {
+                        block: 'soc-links',
+                        content: [
+                            'Follow us on: ',
+                            {
+                                block: 'twitter-share',
+                                tag: 'span',
+                                mix: [{ block: 'soc-links', elem: 'twitter' }],
+                                content: [
+                                    {
+                                        block: 'b-link',
+                                        mix: [ { block: 'twitter-share', elem: 'link' } ],
+                                        url: 'https://twitter.com/#!/appcurl',
+                                        title: 'Twitter',
+                                        target: '_blank',
+                                        content: 'twitter'
+                                    },
+                                    {
+                                        block: 'b-link',
+                                        mix: [ { block: 'twitter-share', elem: 'share' } ],
+                                        cls: 'twitter-share-button',
+                                        url: 'https://twitter.com/share',
+                                        attrs: { 'data-url': 'https://twitter.com/#!/appcurl' },
+                                        content: 'Tweet'
+                                    },
+                                ]
+                            },
+                            {
+                                block: 'facebook-like',                                
+                                mix: [{ block: 'soc-links', elem: 'facebook' }],                                
+                                content: [                                    
+                                    {
+                                        block: 'b-link',
+                                        mix: [ { block: 'facebook-like', elem: 'link' } ],
+                                        url: 'http://www.facebook.com/Appcurl',
+                                        title: 'Facebook',
+                                        target: '_blank',
+                                        content: 'facebook'
+                                    },
+                                    {
+                                        elem: 'like',                                        
+                                        attrs: {
+                                            'data-href': 'http://www.facebook.com/Appcurl',
+                                            'data-send': 'false',
+                                            'data-layout': 'button_count',
+                                            'data-width': '74',
+                                            'data-show-faces': 'false'
+                                        }
+                                    }                                    
+                                ]
+                            }                            
+                        ]
+                    },
+                    {
+                        block: 'copyright',
+                        content: '© 2012 Airupt Inc.'
                     }
                 ]
             }
