@@ -1,5 +1,11 @@
-.twitter-share__share
+.twitter-share
 {
+    display: inline;
+}
+
+.twitter-share__share
+{    
     margin-left: .5em;
+    
     vertical-align: middle;
 }

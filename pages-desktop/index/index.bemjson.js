@@ -252,7 +252,8 @@
                     {
                         block: 'b-menu-horiz',
                         js: false,
-                        mods: { layout: 'normal' },
+                        mods: { layout: 'simple' },
+                        separator: ' · ',
                         mix: [ { block: 'footer-nav' } ],
                         content: [                            
                             {
@@ -293,7 +294,6 @@
                             'Follow us on: ',
                             {
                                 block: 'twitter-share',
-                                tag: 'span',
                                 mix: [{ block: 'soc-links', elem: 'twitter' }],
                                 content: [
                                     {
@@ -309,7 +309,10 @@
                                         mix: [ { block: 'twitter-share', elem: 'share' } ],
                                         cls: 'twitter-share-button',
                                         url: 'https://twitter.com/share',
-                                        attrs: { 'data-url': 'https://twitter.com/#!/appcurl' },
+                                        attrs: {
+                                            'data-via': 'AiruptInc',
+                                            'data-hashtags': 'appcurl'
+                                        },
                                         content: 'Tweet'
                                     },
                                 ]

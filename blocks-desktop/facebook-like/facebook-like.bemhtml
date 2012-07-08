@@ -1,5 +1,4 @@
 block facebook-like {
-    tag: 'span'
     content: [
         {
             elem: 'root',
