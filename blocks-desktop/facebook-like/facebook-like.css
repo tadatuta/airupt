@@ -1,6 +1,6 @@
 .facebook-like
 {
-    display: inline;
+    display: inline-block;
     
     margin-left: 1em;
 }

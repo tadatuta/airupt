@@ -1,0 +1,44 @@
+.return-buttons__button
+{
+    display: inline-block;
+
+    overflow: hidden;
+
+    text-indent: -300px;
+
+    width: 242px;
+    height: 66px;
+
+    background: url(return-buttons__button.png) no-repeat;
+}
+
+.return-buttons__button_return-to_appcurl
+{
+    margin-right: 15px;
+}
+
+.return-buttons__button_return-to_appcurl:hover
+{
+    background-position: 0 -69px;
+}
+
+.return-buttons__button_return-to_appcurl:active
+{
+    background-position: 0 -138px;
+}
+
+.return-buttons__button_return-to_airomo
+{
+    margin-left: 15px;
+    background-position: -243px 0;
+}
+
+.return-buttons__button_return-to_airomo:hover
+{
+    background-position: -243px -69px;
+}
+
+.return-buttons__button_return-to_airomo:active
+{
+    background-position: -243px -138px;
+}

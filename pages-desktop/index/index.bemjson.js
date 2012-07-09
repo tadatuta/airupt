@@ -1,7 +1,7 @@
 ({
     block: 'b-page',
     title: 'The mobile app search engine: Android and iPhone apps',
-    favicon: 'favicon.ico',
+    favicon: '/favicon.ico',
     head: [
         { elem: 'css', url: '_index.css', ie: false },
         { elem: 'css', url: '_index.ie.css', ie: 'lt IE 8' },

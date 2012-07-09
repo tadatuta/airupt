@@ -1,0 +1,36 @@
+html
+{
+    min-height: 100%;
+
+    background: #0f1014;
+    background: -moz-radial-gradient(center 250px, ellipse cover,  #434b59 0%, #0f1014 100%);
+    background: -webkit-gradient(radial, center 250px, 0px, center center, 100%, color-stop(0%,#434b59), color-stop(100%,#0f1014));
+    background: -webkit-radial-gradient(center 250px, ellipse cover,  #434b59 0%,#0f1014 100%);
+    background: -o-radial-gradient(center 250px, ellipse cover,  #434b59 0%,#0f1014 100%);
+    background: -ms-radial-gradient(center 250px, ellipse cover,  #434b59 0%,#0f1014 100%);
+    background: radial-gradient(ellipse at center 250px,  #434b59 0%,#0f1014 100%);
+}
+
+.b-page__body
+{
+    min-height: 100%;
+
+    color: #fff;
+
+    background: url(b-page.png);
+}
+
+.b-page__body:after
+{
+    position: absolute;
+    top: 218px;
+    left: 50%;
+
+    content: '';
+
+    width: 590px;
+    height: 393px;
+    margin-left: -125px;
+
+    background: url(b-page__404.png) no-repeat;
+}
