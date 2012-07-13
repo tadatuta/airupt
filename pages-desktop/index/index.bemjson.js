@@ -19,47 +19,19 @@
                     {
                         block: 'logo',
                         url: '/'                    
-                    },
-                    {
-                        block: 'b-menu-horiz',
-                        mods: { layout: 'normal' },
-                        mix: [{ block: 'header-nav' }],
-                        content: [
-                            {
-                                elem: 'item',
-                                content: {
-                                    block: 'b-link',
-                                    url: '#',
-                                    content: 'Home'
-                                }
-                            },
-                            {
-                                elem: 'item',
-                                elemMods: { state: 'current' },
-                                content: {
-                                    block: 'b-link',
-                                    url: '#',
-                                    content: 'Friends'
-                                }
-                            },
-                            {
-                                elem: 'item',
-                                content: {
-                                    block: 'b-link',
-                                    url: '#',
-                                    content: 'Apps Society'
-                                }
-                            }
-                        ]
-                    },
+                    },                    
                     {
                         block: 'search'
                     },
                     {
-                        block: 'icon-panel',
+                        block: 'dashboard',
                         content: [
-                            'notification',
-                            'sync'
+                            {
+                                elem: 'notification'
+                            },
+                            {
+                                elem: 'sync'
+                            }
                         ]
                     },
                     {
@@ -69,16 +41,47 @@
                                 block: 'avatar'
                             },
                             {
-                                elem: 'username'
+                                elem: 'username',
+                                tag: 'span',
+                                content: 'You'
                             },
                             {
                                 block: 'dropdown',
                                 content: {
                                     block: 'menu',
+                                    mix: [ { block: 'dropdown', elem: 'menu' }, { block: 'user', elem: 'menu' } ],
                                     content: [
                                         {
                                             elem: 'item',
-                                            content: 'login'
+                                            content: {
+                                                block: 'b-link',
+                                                /* TODO: not to hardcode links */
+                                                url: 'http://www.airomo.com/?next=http://appcurl.com/',
+                                                content: 'Login'
+                                            }
+                                        },
+                                        {
+                                            elem: 'item',
+                                            content: {
+                                                block: 'b-link',
+                                                url: 'http://www.airomo.com/profile/profile_apps.html',
+                                                content: 'My profile'
+                                            }
+                                        },
+                                        {
+                                            elem: 'item',
+                                            content: {
+                                                block: 'b-link',
+                                                url: 'http://www.airomo.com/settings/settings_profile.html',
+                                                content: 'Settings'
+                                            }
+                                        },
+                                        {
+                                            elem: 'item',
+                                            content: {
+                                                block: 'b-link',
+                                                content: 'Log out'
+                                            }
                                         }
                                     ]
                                 }

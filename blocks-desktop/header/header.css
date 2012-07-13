@@ -12,12 +12,5 @@
     background: -o-linear-gradient(top,  #39b4d1 0%,#178eb6 100%);
     background: linear-gradient(top,  #39b4d1 0%,#178eb6 100%);
 
-    color: #0a3b4a;
-    text-shadow: 0px 1px 0px #6dc0d8;
-}
-
-.header__inner
-{
-    width: 960px;
-    margin: auto;
+    color: #0a3b4a;    
 }

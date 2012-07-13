@@ -1,0 +1,31 @@
+.user
+{
+    position: relative;
+
+    float: left;
+
+    line-height: 45px;
+    padding: 0 0 0 16px;
+
+    cursor: pointer;
+}
+
+.user:before
+{
+    content: '';
+
+    position: absolute;
+    left: 0;
+    top: 12px;
+
+    height: 24px;
+
+    border-left: 1px solid #1688b2;
+    border-right: 1px solid #32b5d6;    
+}
+
+.user .dropdown
+{
+    left: 6px;
+    top: 51px;
+}

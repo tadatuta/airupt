@@ -1,0 +1,16 @@
+block menu {
+    tag: 'ul'
+
+    elem item {
+        tag: 'li'
+
+        mix: {
+            var mix = [];
+
+            this.isFirst() && mix.push({ elemMods: { position: 'first' } });
+            this.isLast() && mix.push({ elemMods: { position: 'last' } });
+
+            return mix;
+        }
+    }
+}

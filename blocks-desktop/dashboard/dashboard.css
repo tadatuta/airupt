@@ -1,0 +1,22 @@
+.dashboard
+{
+    position: relative;
+
+    float: left;
+
+    line-height: 47px;
+}
+
+.dashboard:before
+{
+    content: '';
+
+    position: absolute;
+    left: 0;
+    top: 12px;
+
+    height: 24px;
+
+    border-left: 1px solid #1688b2;
+    border-right: 1px solid #32b5d6;    
+}

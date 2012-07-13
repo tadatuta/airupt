@@ -1,0 +1,6 @@
+.logo
+{
+    background-image: url(logo.png);
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39b4d1', endColorstr='#127292',GradientType=0 );
+}
