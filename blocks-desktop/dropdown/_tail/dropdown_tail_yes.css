@@ -1,0 +1,16 @@
+.dropdown_tail_yes:before
+{
+    content: '▴';
+
+    font-size: 55px;
+
+    position: absolute;
+    top: -24px;
+    left: 50%;
+
+    line-height: 24px;
+
+    color: #5b5b5b;
+
+    text-shadow: 0 -1px 0 #000;
+}

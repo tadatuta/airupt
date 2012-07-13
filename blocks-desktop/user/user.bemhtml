@@ -1,3 +1,4 @@
 block user {
     js: true
+    mix: [ { block: 'dropdown', elem: 'switcher' } ]
 }
