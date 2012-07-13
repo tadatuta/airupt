@@ -4,6 +4,28 @@
     z-index: 2; /* brings menu to front of the tail */
 }
 
+.dropdown__menu .menu__item
+{
+    /* TODO: fallback; */
+    border-bottom: 1px solid rgba(255,255,255,.1);
+/*    border-top: 1px solid rgba(255,255,255,.3);*/
+}
+
+/*.dropdown__menu .menu__item_position_first
+{
+    border-top: 0;
+}*/
+
+.dropdown__menu .menu__item_position_last
+{
+    border-bottom: 0;
+}
+
+.dropdown__menu .menu__item:hover
+{
+    border-color: transparent;
+}
+
 .dropdown__menu .b-link
 {
     display: block;

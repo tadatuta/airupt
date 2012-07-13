@@ -2,7 +2,7 @@
 {
     position: relative;
 
-    float: left;
+    float: right;
 
     line-height: 45px;
     padding: 0 0 0 16px;
@@ -10,7 +10,8 @@
     cursor: pointer;
 }
 
-.user:before
+/* TODO: not useful for appcurl now; */
+/*.user:before
 {
     content: '';
 
@@ -22,10 +23,10 @@
 
     border-left: 1px solid #1688b2;
     border-right: 1px solid #32b5d6;    
-}
+}*/
 
 .user .dropdown
 {
-    left: 6px;
+    right: 0;
     top: 51px;
 }

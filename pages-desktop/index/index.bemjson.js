@@ -18,22 +18,22 @@
                 content: [
                     {
                         block: 'logo',
-                        url: '/'                    
+                        url: 'http://apps.airomo.com/'
                     },                    
                     {
                         block: 'search'
                     },
-                    {
-                        block: 'dashboard',
-                        content: [
-                            {
-                                elem: 'notification'
-                            },
-                            {
-                                elem: 'sync'
-                            }
-                        ]
-                    },
+                    // {
+                    //     block: 'dashboard',
+                    //     content: [
+                    //         {
+                    //             elem: 'notification'
+                    //         },
+                    //         {
+                    //             elem: 'sync'
+                    //         }
+                    //     ]
+                    // },
                     {
                         block: 'user',
                         content: [

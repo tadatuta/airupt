@@ -1,0 +1,8 @@
+block logo {
+    tag: {
+        var tag = this.ctx.url ? 'a' : 'div';
+        return tag;
+        }
+
+    attrs: { href: this.ctx.url ? this.ctx.url : undefined }
+}

@@ -4,3 +4,12 @@
 
     line-height: 25px;
 }
+
+.user__menu .b-link:before
+{
+    content: '';
+
+    padding-left: 22px;
+
+    background: url(http://www.appcurl.com/images/header_profile_ico.png) no-repeat 0 -89px;    
+}
