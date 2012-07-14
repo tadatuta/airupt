@@ -47,6 +47,7 @@
                             },
                             {
                                 block: 'dropdown',
+                                mods: { theme: 'white' },
                                 content: {
                                     block: 'menu',
                                     mix: [ { block: 'dropdown', elem: 'menu' }, { block: 'user', elem: 'menu' } ],
