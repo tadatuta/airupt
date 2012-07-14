@@ -21,7 +21,15 @@
                         url: 'http://apps.airomo.com/'
                     },                    
                     {
-                        block: 'search'
+                        block: 'header-search',
+                        url: '//appcurl.com/',
+                        content: [
+                            {
+                                elem: 'input',
+                                name: 'q',
+                                placeholder: 'Search'
+                            }
+                        ]
                     },
                     // {
                     //     block: 'dashboard',

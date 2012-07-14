@@ -1,0 +1,24 @@
+block header-search {
+    tag: 'form'
+
+    attrs: { method: 'GET', action: this.ctx.url ? this.ctx.action : undefined }
+
+    content: [
+        this.ctx.content,
+        {
+            elem: 'submit'
+        }
+    ]
+
+    elem input {
+        tag: 'input'
+
+        attrs: { type: 'search', name: this.ctx.name ? this.ctx.name : 'q', placeholder: this.ctx.placeholder ? this.ctx.placeholder : undefined }        
+    }
+
+    elem submit {
+        tag: 'input'
+
+        attrs: { type: 'submit' }
+    }
+}
