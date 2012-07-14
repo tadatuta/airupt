@@ -63,15 +63,29 @@
                                             elem: 'item',
                                             content: {
                                                 block: 'b-link',
+                                                mix: [
+                                                    {
+                                                        block: 'user',
+                                                        elem: 'link',
+                                                        mods: { type: 'login' }
+                                                    }
+                                                ],
                                                 /* TODO: not to hardcode links */
                                                 url: 'http://www.airomo.com/?next=http://appcurl.com/',
                                                 content: 'Login'
                                             }
                                         },
                                         {
-                                            elem: 'item',
+                                            elem: 'item',                                            
                                             content: {
                                                 block: 'b-link',
+                                                mix: [
+                                                    {
+                                                        block: 'user',
+                                                        elem: 'link',
+                                                        mods: { type: 'profile' }
+                                                    }
+                                                ],
                                                 url: 'http://www.airomo.com/profile/profile_apps.html',
                                                 content: 'My profile'
                                             }
@@ -80,6 +94,13 @@
                                             elem: 'item',
                                             content: {
                                                 block: 'b-link',
+                                                mix: [
+                                                    {
+                                                        block: 'user',
+                                                        elem: 'link',
+                                                        mods: { type: 'settings' }
+                                                    }
+                                                ],
                                                 url: 'http://www.airomo.com/settings/settings_profile.html',
                                                 content: 'Settings'
                                             }
@@ -88,6 +109,13 @@
                                             elem: 'item',
                                             content: {
                                                 block: 'b-link',
+                                                mix: [
+                                                    {
+                                                        block: 'user',
+                                                        elem: 'link',
+                                                        mods: { type: 'logout' }
+                                                    }
+                                                ],
                                                 content: 'Log out'
                                             }
                                         }
