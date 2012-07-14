@@ -5,8 +5,7 @@
     float: right;
 
     line-height: 27px;
-    margin-top: 7px;
-    padding: 0 14px 0 16px;
+    margin-top: 7px;    
 
     cursor: pointer;
 }
@@ -26,8 +25,19 @@
     border-right: 1px solid #32b5d6;    
 }*/
 
-.user .dropdown
+.user .dropdown__switcher
 {
-    right: -1px;
+    padding: 0 14px 0 16px;
+}
+
+.user .dropdown__popup
+{
+    right: 0;
     top: 28px;
+}
+
+.dropdown_state_shown .user__username
+{
+    color: #4a5760;
+    text-shadow: none;
 }

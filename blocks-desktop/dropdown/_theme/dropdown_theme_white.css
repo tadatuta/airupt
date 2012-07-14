@@ -1,4 +1,4 @@
-.dropdown_theme_white
+.dropdown_theme_white .dropdown__popup
 {    
     border: 1px solid #4F5050;
     border-radius: 4px 0 4px 4px;
@@ -13,10 +13,20 @@
     color: #4a5760;
 }
 
-.dropdown__switcher_state_on
-/* TODO: it should be .dropdown_theme_white .dropdown__switcher_state_on */
-{
+.dropdown_theme_white.dropdown_state_shown .dropdown__switcher
+{    
+    border-color: #4F5050;
+
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
     background: #f0f2f3;
+
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 -4px 5px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown_theme_white .dropdown__menu .menu__item_position_first .b-link
@@ -35,18 +45,4 @@
     -moz-border-radius-bottomright: 3px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-}
-
-.dropdown_theme_white .dropdown__switcher_state_on
-{
-    border-color: #4F5050;
-
-    -webkit-border-top-left-radius: 3px;
-    -webkit-border-top-right-radius: 3px;
-    -moz-border-radius-topleft: 3px;
-    -moz-border-radius-topright: 3px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-
-    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .2), 0px -1px 5px rgba(0, 0, 0, .3);
 }

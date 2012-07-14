@@ -1,4 +1,6 @@
 block app-categories {
+    mix: [ { block: 'clearfix' } ]
+
     content: [
         this.ctx.content,
         {

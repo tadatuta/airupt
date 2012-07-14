@@ -1,3 +1,4 @@
+/*TODO: file is outdated!*/
 .dropdown_theme_black
 {
     border: 1px solid #000;
@@ -28,7 +29,7 @@
     background: linear-gradient(to bottom,  #666 0%,#5b5b5b 100%);
 }
 
-.dropdown__menu .menu__item_position_first .b-link
+.dropdown_theme_black .dropdown__menu .menu__item_position_first .b-link
 {
     -webkit-border-top-left-radius: 7px;
     -webkit-border-top-right-radius: 7px;
@@ -39,7 +40,7 @@
 }
 
 
-.dropdown__menu .menu__item_position_last .b-link
+.dropdown_theme_black .dropdown__menu .menu__item_position_last .b-link
 {
     -webkit-border-bottom-left-radius: 7px;
     -webkit-border-bottom-right-radius: 7px;
@@ -47,4 +48,18 @@
     -moz-border-radius-bottomright: 7px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
+}
+
+.dropdown_theme_black .dropdown__switcher_state_on
+{
+    border-color: #000;
+
+    -webkit-border-top-left-radius: 7px;
+    -webkit-border-top-right-radius: 7px;
+    -moz-border-radius-topleft: 7px;
+    -moz-border-radius-topright: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .2), 0px -1px 5px rgba(0, 0, 0, .7);
 }

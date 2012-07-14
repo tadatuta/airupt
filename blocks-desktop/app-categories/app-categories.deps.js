@@ -1,5 +1,6 @@
 ({
-    shouldDeps: {
-        elems: 'hover'
-    }
+    shouldDeps: [
+        { elems: 'hover' },
+        { block: 'clearfix' }
+    ]
 })
