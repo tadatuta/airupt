@@ -4,8 +4,8 @@
 
     float: right;
 
-    line-height: 27px;
-    margin-top: 7px;    
+    line-height: 30px;
+    margin-top: 4px;    
 
     cursor: pointer;
 }
@@ -33,7 +33,7 @@
 .user .dropdown__popup
 {
     right: 0;
-    top: 28px;
+    top: 31px;
 }
 
 .dropdown_state_shown .user__username
