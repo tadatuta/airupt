@@ -2,3 +2,8 @@
 {
     background: url(dashboard__item_type_notification.png) no-repeat;
 }
+
+.dashboard__item_state_pressed.dashboard__item_type_notification .dashboard__icon
+{
+    background-position: 0 -16px;
+}

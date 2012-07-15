@@ -299,6 +299,16 @@
             ]
         },
         {
+            block: 'store-badges',
+            content: [
+                {
+                    block: 'b-link',
+                    url: 'https://play.google.com/store/apps/details?id=com.airomo.appcurl',
+                    mix: [ { block: 'store-badge', mods: { store: 'google-play' } } ]                    
+                }
+            ]
+        },
+        {
             block: 'footer',
             content: [
                 {

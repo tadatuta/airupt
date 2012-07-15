@@ -1,6 +1,12 @@
+/* TODO: make same-sized sprite to get rid of different padding and bg-pos for .dashboard__icon */
 .dashboard__item_type_sync .dashboard__icon
 {
     padding: 13px 16px 0 0;
 
     background: url(dashboard__item_type_sync.png) no-repeat;
+}
+
+.dashboard__item_state_pressed.dashboard__item_type_sync .dashboard__icon
+{    
+    background-position: 0 -14px;
 }
