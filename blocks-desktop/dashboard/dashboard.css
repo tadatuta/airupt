@@ -3,9 +3,9 @@
     position: relative;
 
     float: left;
-
-    padding: 0 5px;
+    
     margin-right: 6px;
+    padding-right: 8px;
 
     line-height: 47px;
 }
