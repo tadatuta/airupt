@@ -38,15 +38,15 @@
                                 block: 'dashboard',
                                 content: [
                                     {
-                                        elem: 'item'
-                                        mods: { type: 'notification' },
+                                        elem: 'item',
+                                        elemMods: { type: 'notification' },
                                         content: {
                                             elem: 'icon'
                                         }
                                     },
                                     {
                                         elem: 'item',
-                                        mods: { type: 'sync' },
+                                        elemMods: { type: 'sync' },
                                         content: {
                                             elem: 'icon'
                                         }
