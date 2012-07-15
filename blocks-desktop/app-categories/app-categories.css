@@ -15,22 +15,23 @@
     background: url(app-categories.png);
 }
 
-.app-categories__hover
-{
+.app-category:after {
     position: absolute;
-
-    content: '';
+    top: 50%;
+    left: 50%;
 
     display: none;
 
+    content: '';
+
     width: 106px;
     height: 102px;
+    margin: -51px 0 0 -53px;
 
     background: url(app-categories__hover.png);
 }
 
-.app-categories:hover .app-categories__hover
-{
+.app-category:hover:after {
     display: block;
 }
 

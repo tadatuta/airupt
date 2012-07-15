@@ -1,0 +1,3 @@
+block appcurl-logo {
+    content: 'appcurl'
+}

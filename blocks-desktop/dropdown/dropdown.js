@@ -9,7 +9,6 @@
             },
             'state' : {
                 'shown': function() {
-                    this.findBlockInside('dropdown').toggleMod('visibility', 'visible');
                     this.trigger('shown');
 
                     var keyDownEvent = $.browser.opera ? 'keypress' : 'keydown';

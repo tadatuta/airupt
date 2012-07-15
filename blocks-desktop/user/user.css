@@ -10,21 +10,6 @@
     cursor: pointer;
 }
 
-/* TODO: not useful for appcurl now; */
-/*.user:before
-{
-    content: '';
-
-    position: absolute;
-    left: 0;
-    top: 12px;
-
-    height: 24px;
-
-    border-left: 1px solid #1688b2;
-    border-right: 1px solid #32b5d6;    
-}*/
-
 .user .dropdown__switcher
 {
     padding: 0 5px 0 7px;
@@ -34,6 +19,8 @@
 {
     right: 0;
     top: 32px;
+
+    min-width: 100%;
 }
 
 .dropdown_state_shown .user__username

@@ -88,7 +88,7 @@
                                                         }
                                                     ],
                                                     /* TODO: not to hardcode links */
-                                                    url: 'http://www.airomo.com/?next=http://appcurl.com/',
+                                                    url: 'http://www.airomo.com/?next=http://www.appcurl.com/',
                                                     content: 'Login'
                                                 }
                                             },
@@ -149,8 +149,23 @@
             block: 'content',
             content: [
                 {
+                    block: 'appcurl-logo'
+                },
+                {
+                    block: 'appcurl-search',
+                    content: [
+                        {
+                            block: 'input',
+                            placeholder: 'Search Mobile Apps...'
+                        },
+                        {
+                            block: 'button',
+                            content: 'Search'
+                        }
+                    ]
+                },
+                {
                     block: 'app-categories',
-                    mix: [ { block: 'clearfix' } ],
                     content: [
                         {
                             block: 'app-category',

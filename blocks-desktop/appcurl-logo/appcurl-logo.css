@@ -1,0 +1,16 @@
+.appcurl-logo
+{
+    display: block;
+
+    overflow: hidden;
+
+    width: 239px;
+    height: 158px;
+    margin: 80px auto 25px;
+
+    background: url(appcurl-logo.png) no-repeat;
+
+    text-indent: -350px;
+
+    cursor: pointer;
+}
