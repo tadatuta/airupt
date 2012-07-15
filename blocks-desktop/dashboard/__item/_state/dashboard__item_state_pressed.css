@@ -1,0 +1,16 @@
+.dashboard__item_state_pressed
+{
+    background: #0e6384;
+    background: -moz-linear-gradient(top,  #0e6384 0%, #3aa4bd 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0e6384), color-stop(100%,#3aa4bd));
+    background: -webkit-linear-gradient(top,  #0e6384 0%,#3aa4bd 100%);
+    background: -o-linear-gradient(top,  #0e6384 0%,#3aa4bd 100%);
+    background: -ms-linear-gradient(top,  #0e6384 0%,#3aa4bd 100%);
+    background: linear-gradient(to bottom,  #0e6384 0%,#3aa4bd 100%);
+    /* TODO: move to ie.css */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e6384', endColorstr='#3aa4bd',GradientType=0 );
+
+    border-color: #093d4f;
+    
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.7) inset;
+}
