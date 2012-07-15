@@ -103,7 +103,7 @@
                                                             mods: { type: 'profile' }
                                                         }
                                                     ],
-                                                    url: 'http://www.airomo.com/profile/profile_apps.html',
+                                                    url: 'http://www.airomo.com/profile/',
                                                     content: 'My profile'
                                                 }
                                             },
@@ -118,7 +118,7 @@
                                                             mods: { type: 'settings' }
                                                         }
                                                     ],
-                                                    url: 'http://www.airomo.com/settings/settings_profile.html',
+                                                    url: 'http://www.airomo.com/settings/profile.html',
                                                     content: 'Settings'
                                                 }
                                             },
