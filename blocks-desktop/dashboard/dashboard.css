@@ -4,16 +4,19 @@
 
     float: left;
 
+    padding: 0 5px;
+    margin-right: 6px;
+
     line-height: 47px;
 }
 
-.dashboard:before
+.dashboard:after
 {
     content: '';
 
     position: absolute;
-    left: 0;
-    top: 12px;
+    right: 0;
+    top: 10px;
 
     height: 24px;
 

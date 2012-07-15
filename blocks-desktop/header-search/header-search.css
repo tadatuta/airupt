@@ -1,0 +1,86 @@
+.header-search
+{
+    position: relative;
+
+    float: left;
+
+    padding-right: 18px;
+
+    line-height: 42px;
+}
+
+.header-search__input
+{    
+    font-size: 12px;
+
+    width: 85px;
+    margin: 0;
+    padding: 4px 15px 4px 4px;
+
+    border: 1px solid #146E8C;
+    border-radius: 3px;    
+    
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+
+    color: #bdbfbf;
+
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;    
+
+    -webkit-appearance: none;    
+    -moz-appearance: none;
+
+    -webkit-transition: width 150ms;
+    -moz-transition: width 150ms ease 0s;
+}
+
+.header-search__input:focus
+{
+    width: 175px;
+
+    color: #333;
+
+    outline: none;
+}
+
+.header-search__submit
+{    
+    width: 20px;
+    height: 15px;
+    margin-left: -23px;
+    padding: 0;
+
+    overflow: hidden;
+
+    border: 1px solid #bebfbf;
+    border-width: 0 0 0 1px;
+
+    opacity: 0.6;    
+
+    background: url(http://www.airomo.net/images/search_ico.png) no-repeat 4px 1px;
+    
+    cursor: pointer;
+    
+    text-indent: -999px;
+}
+
+/* TODO: crossbrowser */
+.header-search__input:focus + .header-search__submit
+{
+    opacity: 1;
+}
+
+.header-search:after
+{
+    content: '';
+
+    position: absolute;
+    right: 0;
+    top: 10px;
+
+    height: 24px;
+
+    border-left: 1px solid #1688b2;
+    border-right: 1px solid #32b5d6;    
+}
