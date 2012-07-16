@@ -13,6 +13,9 @@ exports.getConfig = function() {
         bundleBuildLevels: this.resolvePaths([
             '../../bem-bl/blocks-common',
             '../../bem-bl/blocks-desktop',
+            '../../yndx',
+            '../../airupt',
+            '../../appcurl',
             '../../blocks-desktop'
         ])
     });

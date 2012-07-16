@@ -1,0 +1,14 @@
+.serp-filter
+{
+    float: left;
+
+    width: 180px;
+    margin: 0 0 15px;
+
+    border: 1px solid #b0a7a7;
+    border-radius: 2px;
+
+    /*color: #209dbf;*/
+
+    background: #fff;
+}

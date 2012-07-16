@@ -1,4 +1,6 @@
 block app-categories {
+    //js: true
+
     mix: [ { block: 'clearfix' } ]
 
     content: [

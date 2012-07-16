@@ -1,0 +1,12 @@
+.app
+{    
+    width: 600px;
+    height: 134px;
+    margin-bottom: 7px;
+    padding: 10px 0 0 8px;
+
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+
+    color: #898888;
+}

@@ -7,6 +7,7 @@
         { elem: 'css', url: '_index.ie.css', ie: 'lt IE 8' },
         { block: 'i-jquery', elem: 'core' },
         { elem: 'js', url: '_index.js' },
+        { elem: 'js', url: '//static.airomo.com/js/api.airomo.js' },
         { elem: 'meta', attrs: { name: 'description', value: 'Appcurl is mobile app search engine for the smartphone & tablet users. Appcurl helps you explore and find Android and Iphone(iOS) apps that matches your life style.' }},
         { elem: 'meta', attrs: { name: 'keywords', value: 'app search, app search engine, android app search, iphone app search, mobile app search, ios app search engine, android app search engine, app discovery, mobile app discovery, ios app reviews, android app reviews, share ios apps, share android apps, like ios app in facebook, like android app in facebook, ios app blog, android app blog, mobile social network, mobile social search, app social search, ios app recommendation, android app recommendation, view friends apps' }}
     ],
@@ -312,6 +313,115 @@
                     ]
                 }
             ]
+        },
+        {
+            block: 'serp',
+            content: [
+                {
+                    elem: 'layout-col',
+                    mods: { position: 'left' },
+                    content: {
+                        block: 'serp-filter',
+                        content: [
+                            {
+                                elem: 'title',
+                                content: 'Result Filter'
+                            },
+                            {
+                                elem: 'caption',
+                                content: 'Platforms'
+                            },
+                            {
+                                elem: 'filter',
+                                content: [
+                                    {
+                                        block: 'checkbox'
+                                    },
+                                    {
+                                        elem: 'number',
+                                        content: '100500'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    elem: 'layout-col',
+                    mods: { position: 'center' },
+                    content: [
+                        {
+                            elem: 'statistics',
+                            content: [
+                                '13952 apps found and ',
+                                {
+                                    block: 'b-link',
+                                    url: '#',
+                                    content: '2130 apps'
+                                },
+                                ' with "sms" in the title'
+                            ]
+                        },
+                        {
+                            elem: 'apps',
+                            content: [
+                                {
+                                    block: 'app',
+                                    content: [
+                                        {
+                                            elem: 'icon'
+                                        },
+                                        {
+                                            block: 'rating'
+                                        },
+                                        {
+                                            block: 'b-link',
+                                            url: '#',
+                                            mix: [ { block: 'app', elem: 'title' } ],
+                                            content: 'app title'                                    
+                                        },
+                                        {
+                                            block: 'b-link',
+                                            url: '#',
+                                            mix: [ { block: 'app', elem: 'category' } ],
+                                            content: 'app category'
+                                        },
+                                        {
+                                            block: 'b-link',
+                                            url: '#',
+                                            mix: [ { block: 'app', elem: 'store', mods: { store: 'market' } } ],
+                                            content: 'market'
+                                        },
+                                        {
+                                            block: 'app-social',
+                                            content: [
+                                                {
+                                                    elem: 'likes',
+                                                    content: '0'
+                                                },
+                                                {
+                                                    elem: 'comments',
+                                                    content: '0'
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    elem: 'layout-col',
+                    mods: { position: 'right' },
+                    content: [
+                        {
+                            block: 'right-coll',
+                            content: 'right collumn'
+                        }
+                    ]
+                }
+            ]     
         },
         {
             block: 'store-badges',

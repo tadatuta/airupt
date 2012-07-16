@@ -1,6 +1,10 @@
 ({
+    mustDeps: [
+        { block: 'appcurl-api' },
+        { block: 'app-category' },
+        { block: 'i-bem', elem: 'html' }
+    ],
     shouldDeps: [
-        { elems: 'hover' },
-        { block: 'clearfix' }
+        { block: 'clearfix' },        
     ]
 })

@@ -1,0 +1,16 @@
+.serp__layout-col
+{
+    float: left;
+}
+
+.serp__layout-col_position_left
+{
+    width: 180px;
+    margin-right: 10px;
+}
+
+.serp__layout-col_position_center
+{
+    width: 612px;
+    margin-right: 10px;
+}

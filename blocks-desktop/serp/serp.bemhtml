@@ -1,0 +1,10 @@
+block serp {    
+    content: {
+        elem: 'layout',
+        content: this.ctx.content
+    }
+
+    elem layout {
+        mix: [ { block: 'clearfix' } ]
+    }
+}
